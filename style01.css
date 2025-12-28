@@ -1,0 +1,49 @@
+
+/*position des composant*/
+Body{
+    font-family: 'Arial', sans-serif;
+     margin: 0;
+      padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    height:100vh;
+    background: linear-gradient(135deg, #78dcef, #3d6fc7, #0e4fc0); /*degradé de bleu*/
+}   
+/*  */
+.intro{
+
+    width:750px;
+
+}
+h1 {
+        color:white;
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+p {     color:white;
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+     
+    }
+
+a.bouton{    
+      text-decoration: none;
+      background: rgb(255, 255, 255);
+      color: #0077b6;
+      padding: 12px 40px;
+      border-radius: 30px;
+      font-weight: lighter;
+      transition: background 0.5s, color 0.5s, padding 0.5s;
+}
+
+a.bouton:hover{
+    
+    background: #0077b6;
+      color: rgb(255, 255, 255);
+      border: 2px solid rgb(255, 255, 255);
+      padding: 12px 60px;
+
+}

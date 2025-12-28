@@ -1,0 +1,41 @@
+
+
+.tableau {
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.tableau h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color:inherit;
+}
+
+.grille {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*Fait en sorte que les elements passent a la ligne si il n'y a plus de place     */
+}
+
+.colonne {
+  width: 45%;
+  min-width: 300px;
+}
+
+.colonne h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color:inherit;
+}
+
+li {
+  margin-bottom: 8px;
+}
+.colonne p{
+  margin-right:50px;
+}
